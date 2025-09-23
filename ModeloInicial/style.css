@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+*::selection {
+  background: #ae75da;
+  color: #fff;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.fundo {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  /* background: #fff; */
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+i {
+  font-size: 7.5em;
+  /* color: #ae75da; */
+  border: 5px solid transparent;
+  outline: 3px solid #ae75da;
+  border-radius: 50%;
+}
+
+h2.pergunta {
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 2em;
+  color: #ae75da;
+  margin: 5px 0;
+  text-align: center;
+  justify-content: center;
+}
+
+.btn-grupo {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+button {
+  position: absolute;
+  width: 150px;
+  height: inherit;
+  font-size: 1.2em;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 30px;
+  border: 2px solid #ae75da;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.voltar-bt {
+  background-color: #ae75da;
+  position: absolute;
+  bottom: 5px;
+  width: 150px;
+  height: 50px;
+  font-size: 1.2em;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 30px;
+  border: 2px solid #ae75da;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.voltar-bt:hover {
+  background: #ffffff;
+  color: #ae75da;
+}
+
+button:nth-child(1) {
+  margin-left: -200px;
+  /* background: #ae75da; */
+}
+
+button:nth-child(2) {
+  margin-right: -200px;
+  color: #ae75da;
+}
