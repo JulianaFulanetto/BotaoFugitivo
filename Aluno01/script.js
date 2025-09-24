@@ -13,7 +13,7 @@ simBt.addEventListener("click", () => {
   // cria um parágrafo novo (subtexto) logo abaixo
   const subtexto = document.createElement("p");
   subtexto.innerText = "Sabia que você ia dizer SIM!"; // mensagem personalizada
-  subtexto.style.color = "#02048a"; // cor do texto
+  subtexto.style.color = "#000000ff"; // cor do texto
   subtexto.style.fontSize = "1.2em"; // tamanho da fonte
   fundo.appendChild(subtexto); // adiciona esse texto na tela
 
@@ -23,7 +23,7 @@ simBt.addEventListener("click", () => {
   // cria uma imagem (gif) de comemoração
   const gif = document.createElement("img");
   gif.src =
-    "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3YXpkYXR2Zm9lMDB4cWo4cThhYXF0Y3NkMngyZ3M1cmoxODQzOWpxeSZlcD12MV9naWZzX3RyZW5kaW5nJmN0PWc/tHIRLHtNwxpjIFqPdV/giphy.gif"; // link do gif
+    "https://media.giphy.com/media/v1.Y2lkPWVjZjA1ZTQ3OGd4am5vN2I2dzNvZWxkdWF4dXU2MXhtcTltZWN2ZDNuaWdhanBnZSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/vFKqnCdLPNOKc/giphy.gif"; // link do gif
   gif.alt = "Gatinho comemorando";
   gif.style.width = "250px"; // tamanho do gif
   gif.style.marginTop = "1px"; // margem superior
